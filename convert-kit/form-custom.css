@@ -1,0 +1,11 @@
+/*
+Custom css for ConvertKit Form
+Template: Mills Inline Form
+*/
+
+/* Reduce default padding on form */
+max-width: 100%;
+padding: 0px;
+[data-style="minimal"] {
+  padding: 20px !important;
+}
