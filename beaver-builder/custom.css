@@ -1,0 +1,135 @@
+/* Custom CSS for BeaverBuilder*/
+
+.equal-height-module {
+    align-content: flex-end;
+     flex: 1 1 0;
+     display: grid;
+   }
+   
+   .post-series-intro {
+       background-color: #e4f2ff !important;
+       padding: 20px 20px !important;
+       margin: 20px 0 !important;
+       max-width: 1200px
+   }
+   .post-series-intro a {
+       color: #0080ff !important;
+   }
+   
+   /* Post - previous/next buttons */
+   .upw-before {
+       color: #5b5b5b;
+       margin: 0;
+   }
+   
+   .upw-after {
+       color: #5b5b5b;
+     margin: 0;
+   }
+   
+   .upw-posts h1.entry-title {
+       margin: 0px !important;
+   }
+   
+   .upw-posts article {
+       border-left: 0px !important;
+       margin-top: 10px !important;
+       margin-bottom: 10px !important;
+   }
+   
+   .widget_ultimate_posts {
+       border-top: 1px solid rgba(0, 0, 0, 0.1);
+     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+       padding-top: 27px;
+       padding-bottom: 27px;
+   }
+   
+   .widget_ultimate_posts a {
+       color: black;
+   }
+   
+   .widget_ultimate_posts a:hover {
+       color: #0080ff;
+   }
+   
+   /* Header/footer */
+   .fl-page-header-wrap
+   {
+     border-bottom: none !important;
+   }
+   
+   .fl-page-footer {
+     border-top: none;
+   }
+   
+   /* Post content*/
+   .fl-post-grid-image {
+     width: 344px !important;
+     height: 258px !important;
+   }
+   
+   .tag-wide-post {
+       margin: 0 auto;
+       max-width: 1200px;
+   }
+   
+   .tag-wide-post h1, h2, h3, h4, h5, h6 {
+       font-family: "Avenir Pro 35 Light",Verdana,Arial,sans-serif;
+   }
+   
+   .tag-regular-post {
+       font-family: "Avenir Pro 35 Light",Verdana,Arial,sans-serif;
+       margin: 0 auto;
+       max-width: 700px;
+   }
+   
+   .tag-regular-post h1, h2, h3, h4, h5, h6 {
+       font-family: "Avenir Pro 35 Light",Verdana,Arial,sans-serif;
+   }
+   
+   .fl-page-content blockquote {
+     border-left: 5px solid #0080ff;
+       padding-top: 5px;
+       padding-bottom: 5px;
+   }
+   .fl-page-content blockquote * {
+       color: #757575;
+       font-size: 16px;
+   }
+   .fl-page-content blockquote a {
+       color: #0080ff !important;
+   }
+   .blockquote-grey {
+     border-left: 5px solid #757575 !important;
+   }
+   .blockquote-grey * {
+       color: #757575 !important;
+       font-size: 16px;
+   }
+   .blockquote-grey a {
+       color: #0080ff !important;
+   }
+   
+   .wp-block-group ul {
+       margin: inherit !important;
+   }
+   
+   .fl-after-post-widget {
+       margin: 0 auto;
+       max-width: 700px;
+   }
+   
+   .post-content-image-left {
+       flex-basis: 600px !important;
+   }
+   
+   /* Inline CSS*/
+   .MaxWidth * {
+       margin: 0px auto;
+       max-width: 100%;
+   }
+   
+   .MarginTopBottom40px {
+       margin-top: 40px !important;
+       margin-bottom: 40px !important;
+   }
