@@ -226,22 +226,67 @@ Custom ConvertKit html and css email template
       <div class="header"><h1>Tom Hosiawa</h2></div>
   
       <div class="message-content">
+    <!--- Test for all scenarios within {{ message_content }} -->
+    <h1>Title</h1>
 
-        <!---
-          Test for all scenarios within {{ message_content }}
-          -->
-          <h1>Title</h1>
+    <p>
+    MMM DD, YYYY • X mins Y secs • Listen to audio version <a href="">online</a>
+    </p>
 
-          <p>&#8203</p>
-          <span class="accent"></span>
-          <p>
-            MMM DD, YYYY • X mins Y secs • Listen to audio version <a href="">online</p>a>
-          </p> 
-      
-          <div class="post-series-intro">
+    <div class="message-series-intro">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+    enim ad minim veniam, quis nostrud exercitation
+    <a>link</a>.
+    </div>
 
-          </div>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+        enim ad minim veniam, quis nostrud exercitation
+      </p>
 
+      <blockquote>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+        enim ad minim veniam, quis nostrud exercitation
+      </div>
+
+      <br>
+
+      <div class="blockquote-grey">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+        enim ad minim veniam, quis nostrud exercitation
+      </div>
+
+      <figure class="wp-block-table is-style-stripes">
+        <table>
+          <tbody>
+            <tr>
+              <td>Lorem</td>
+              <td class="has-text-align-right" data-align="right">ipsum</td>
+            </tr>
+            <tr>
+              <td>Lorem</td>
+              <td class="has-text-align-right" data-align="right">ipsum</td>
+            </tr>
+            <tr>
+              <td>Lorem</td>
+              <td class="has-text-align-right" data-align="right">ipsum</td>
+            </tr>
+            <tr>
+              <td>Lorem</td>
+              <td class="has-text-align-right" data-align="right">ipsum</td>
+            </tr>
+          </tbody>
+        </table>
+      </figure>
+    </div>
+
+    <hr class="is-style-dots">
+          
           <div class="footer">
               <p>Thanks for reading! If you loved it, tell your friends to subscribe.</p>
               <p>If you didn’t enjoy the email you can <a href="{{ unsubscribe_url }}">unsubscribe here</a>.</p>
