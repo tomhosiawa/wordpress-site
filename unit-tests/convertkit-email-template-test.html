@@ -1,0 +1,256 @@
+<!-- 
+Custom ConvertKit html and css email template
+-->
+
+<style>
+  * {
+      font-family: "Avenir Pro 35", "Open Sans", Helvetica, Arial, sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      color: #0080ff;
+      font-weight:bold;
+  }
+  
+  h1 {
+      font-size: 30px;
+      margin: 0px 0px;
+  }
+  
+  h2 {
+      font-size: 16px;
+  }
+  
+  p,
+  li,
+  ul,
+  ol,
+  div {
+      font-size: 16px;
+      line-height: 1.45em;
+      font-family: "Avenir Pro 35", "Open Sans", Helvetica, Arial, sans-serif;
+      color: #333333;
+  }
+  
+  p *,
+  li * {
+      color: inherit;
+      font-family: inherit;
+      font-size: inherit;
+  }
+  
+  p,
+  ul,
+  ol {
+      margin-bottom: 1em;
+  }
+  
+  a {
+      text-decoration: none;
+      color: #0080ff;
+  }
+  
+  a:hover {
+      color: #0080ff;
+      border-bottom-color: #1b8ede;
+  }
+  
+  .message-container {
+      padding: 10px 20px;
+  }
+  
+  blockquote {
+      border-left: solid 5px #0080ff;
+      color: #757575;
+      font-family: "Avenir Pro 35", "Open Sans", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.45em;
+      margin: 0px 0px;
+      padding: 5px 10px;
+  }
+  blockquote * {
+      color: #757575;
+  }
+  
+  .blockquote-grey {
+      border-left: solid 5px #757575;
+      font-family: "Avenir Pro 35", "Open Sans", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.45em;
+      margin: 0px 0px;
+      padding: 5px 10px;
+  }
+  .blockquote-grey * {
+      color: #757575;
+  }
+  
+  .header {
+      border-left: solid 5px #0080ff;
+      color: #444;
+      font-family: "Futura-Bold", "Avenir Pro 35", "Open Sans", Helvetica, Arial, sans-serif;
+      font-size: 28px;
+      line-height: 1.45em;
+      padding: 3px 20px;
+  }
+  
+  .message-content {
+      font-family: "Avenir Pro 35", "Open Sans", Helvetica, Arial, sans-serif;
+      margin: auto;
+      max-width: 700px;
+      padding: 10px 30px;
+  }
+  
+  /* what does this do?
+  .message-content div {
+      padding-bottom: 20px;
+  }
+  */
+  .message-content img {
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+  }
+  
+  .message-date {
+      color: #666;
+      font-size: 14px;
+      font-weight: 700px;
+  }
+  
+  .message-series-intro {
+      background-color: #e4f2ff;
+      padding: 20px !important;
+  }
+  
+  .button {
+      border: none;
+      background: #0080ff;
+      color: #fff;
+      padding: 10px;
+      display: inline-block;
+      margin: 10px 0px;
+      font-family: "Avenir Pro 35", "Open Sans", Helvetica, Arial, sans-serif;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+  }
+  
+  .button:hover {
+      color: #fff;
+      background: #666;
+  }
+  
+  .social-links {
+      margin-bottom: 10px;
+      padding: 0px;
+  }
+  
+  .social-links a {
+      text-align: center;
+      padding: 5px;
+      border: none;
+  }
+  
+  .accent {
+      border-top: solid 5px #0080ff;
+      line-height: 1.45em;
+      padding: 0 0 0 30px;
+  }
+  
+  .footer {
+      padding: 0px;
+      margin: 5px auto;
+  }
+  
+  .footer p {
+      color: #786f88;
+      font-family: "Avenir Pro 35", "Open Sans", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 700px;
+  }
+  
+  .footer a {
+      color: #281842;
+      font-weight:bold;
+      text-decoration: none;
+  }
+  
+  .footer a:hover {
+      border-bottom-color: #0080ff;
+      color: #0080ff;
+      font-weight:bold;
+  }
+  
+  .is-style-dots {
+      background: none !important;
+      border: none;
+      text-align: center;
+      max-width: none;
+      line-height: 1;
+      height: auto;
+   }
+  .is-style-dots:before {
+      content: "\00b7 \00b7 \00b7";
+      color: currentColor;
+      font-size: 1.5em;
+      letter-spacing: 2em;
+      padding-left: 2em;
+      font-family: serif;
+   }
+  .is-style-stripes tbody tr:nth-child(odd) {
+      background-color: #f0f0f0;
+   }
+   .is-style-stripes {
+      border-spacing: 0;
+      border-collapse: inherit;
+      background-color: transparent;
+      border-bottom: 1px solid #f0f0f0;
+      display: block;
+      overflow-x: auto;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+   }
+  </style>
+  
+  <!--[if mso]>
+  <center>
+  <table><tr><td width="580">
+  <![endif]-->
+  <div class="message-container">
+      <div class="header"><h1>Tom Hosiawa</h2></div>
+  
+      <div class="message-content">
+
+        <!---
+          Test for all scenarios within {{ message_content }}
+          -->
+          <h1>Title</h1>
+
+          <p>&#8203</p>
+          <span class="accent"></span>
+          <p>
+            MMM DD, YYYY • X mins Y secs • Listen to audio version <a href="">online</p>a>
+          </p> 
+      
+          <div class="post-series-intro">
+
+          </div>
+
+          <div class="footer">
+              <p>Thanks for reading! If you loved it, tell your friends to subscribe.</p>
+              <p>If you didn’t enjoy the email you can <a href="{{ unsubscribe_url }}">unsubscribe here</a>.</p>
+              <p>To change your email or preferences  <a href="{{ subscriber_preferences_url }}">manage your profile</a>.</p>
+              <p>{{ address }}</p>
+          </div>
+      </div>
+  </div>
+  <!--[if mso]>
+  </td></tr></table>
+  </center>
+  <![endif]-->
