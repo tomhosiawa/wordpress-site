@@ -73,18 +73,9 @@
        max-width: 1200px;
    }
    
-   .tag-wide-post h1, h2, h3, h4, h5, h6 {
-       font-family: "Avenir Pro 35 Light",Verdana,Arial,sans-serif;
-   }
-   
    .tag-regular-post {
-       font-family: "Avenir Pro 35 Light",Verdana,Arial,sans-serif;
        margin: 0 auto;
        max-width: 700px;
-   }
-   
-   .tag-regular-post h1, h2, h3, h4, h5, h6 {
-       font-family: "Avenir Pro 35 Light",Verdana,Arial,sans-serif;
    }
    
    .fl-page-content blockquote {
