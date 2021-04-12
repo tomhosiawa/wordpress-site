@@ -4,37 +4,47 @@ Custom ConvertKit html and css email template
 
 <style>
   * {
-    font-family: "Avenir Pro 35", "Open Sans", Helvetica, Arial, sans-serif;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: #0080ff;
-    font-weight: bold;
+    color: black;
+    font-family: "Spectral", "Open Sans", Helvetica, Arial, sans-serif;
+    line-height: 1.4em;
   }
 
   h1 {
-    font-size: 30px;
-    margin: 0px 0px;
+    color: #0080ff;
+    font-size: 32px;
   }
-
   h2 {
+    color: #0080ff;
+    font-size: 24px;
+  }
+  h3 {
+    color: #0080ff;
+    font-size: 18px;
+  }
+  h4 {
+    color: #0080ff;
     font-size: 16px;
   }
+  h5 {
+    color: #0080ff;
+    font-size: 14px;
+  }
+  h6 {
+    color: #0080ff;
+    font-size: 12px;
+  }
 
+  hr {
+    margin: 1em auto;
+  }
+  
   p,
   li,
   ul,
   ol,
   div {
     font-size: 16px;
-    line-height: 1.45em;
-    font-family: "Avenir Pro 35", "Open Sans", Helvetica, Arial, sans-serif;
-    color: #333333;
+    line-height: 1.4em;
   }
 
   p *,
@@ -67,10 +77,9 @@ Custom ConvertKit html and css email template
   blockquote {
     border-left: solid 5px #0080ff;
     color: #757575;
-    font-family: "Avenir Pro 35", "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.45em;
-    margin: 0px 0px;
+    margin: 1em 0px;
     padding: 5px 10px;
   }
 
@@ -80,10 +89,9 @@ Custom ConvertKit html and css email template
 
   .blockquote-grey {
     border-left: solid 5px #757575;
-    font-family: "Avenir Pro 35", "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.45em;
-    margin: 0px 0px;
+    margin: 1em 0px;
     padding: 5px 10px;
   }
 
@@ -93,18 +101,13 @@ Custom ConvertKit html and css email template
 
   .header {
     border-left: solid 5px #0080ff;
-    color: #444;
-    font-family: "Futura-Bold", "Avenir Pro 35", "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 28px;
-    line-height: 1.45em;
-    padding: 3px 20px;
+    padding: 5px 20px !important;
   }
 
   .message-content {
-    font-family: "Avenir Pro 35", "Open Sans", Helvetica, Arial, sans-serif;
     margin: auto;
     max-width: 700px;
-    padding: 10px 30px;
+    padding: 10px 10px;
   }
 
   /* what does this do?
@@ -127,6 +130,30 @@ Custom ConvertKit html and css email template
   .message-series-intro {
     background-color: #e4f2ff;
     padding: 20px !important;
+    margin: 1em auto;
+  }
+
+  /* Foundational Style */
+  .primary-callout-box {
+    background-color: #e4f2ff;
+    padding: 20px 20px;
+    margin: 20px 0px;
+  }
+
+  .secondary-callout-box {
+    background-color: #FEF4CC;
+    padding: 20px 20px;
+    margin: 20px 0px;
+  }
+
+  .tertiary-callout-box {
+    background-color: #F2F2F2;
+    padding: 20px 20px;
+    margin: 20px 0px;
+  }
+
+  .tip {
+    padding: 10px 10px !important;
   }
 
   .button {
@@ -136,7 +163,6 @@ Custom ConvertKit html and css email template
     padding: 10px;
     display: inline-block;
     margin: 10px 0px;
-    font-family: "Avenir Pro 35", "Open Sans", Helvetica, Arial, sans-serif;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -171,7 +197,6 @@ Custom ConvertKit html and css email template
 
   .footer p {
     color: #786f88;
-    font-family: "Avenir Pro 35", "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: 700px;
   }
